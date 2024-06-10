@@ -29,8 +29,7 @@
         }
         for (let i = 1; i <= 10; i++){
             let choice = getHumanChoice();
-            // let comp = getComputerChoice();
-            let comp = "rock";
+            let comp = getComputerChoice();
             console.log(`Computer chooses ${comp}`);
             if (choice === comp){
                 tie(choice, i);
